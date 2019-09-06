@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            -webkit-perspective: 2400;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 200px auto;
+            border: 1px solid red;
+            position: relative;
+            transition: all 2s;
+            transform-style: preserve-3d; 
+            animation: name 3s linear infinite;
+            cursor: pointer;
+        }
+        .box div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 30px;
+            text-align: center;
+            line-height: 200px;
+            transition: all 0.8s linear;
+        }
+        .box div:nth-of-type(1){
+            background: red;
+            transform:translateZ(-100px);
+        }
+        .box div:nth-of-type(2){
+            background: pink;
+            transform: rotateY(90deg) translateZ(-100px);
+        }
+        .box div:nth-of-type(3){
+            background: greenyellow;
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        .box div:nth-of-type(4){
+            background: paleturquoise;
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        .box div:nth-of-type(5){
+            background: peachpuff;
+            transform: rotateX(90deg) translateZ(-100px);
+        }
+        .box div:nth-of-type(6){
+            background: blue;
+            transform: translateZ(100px);
+        }
+        .box:hover div:nth-of-type(1){
+            transform:translateZ(-200px);
+        }
+        .box:hover div:nth-of-type(2){
+            transform: rotateY(90deg) translateZ(-200px);
+        }
+        .box:hover div:nth-of-type(3){
+            transform: rotateY(90deg) translateZ(200px);
+        }
+        .box:hover div:nth-of-type(4){
+            transform: rotateX(90deg) translateZ(200px);
+        }
+        .box:hover div:nth-of-type(5){
+            transform: rotateX(90deg) translateZ(-200px);
+        }
+        .box:hover div:nth-of-type(6){
+            transform:translateZ(200px);
+        }
+        @keyframes name {
+            0%{
+                transform: rotateX(0deg) rotateY(0);
+            }
+            100%{
+                transform: rotateX(360deg) rotateY(360deg);
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div> 
+</body>
+</html>
