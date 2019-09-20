@@ -1,0 +1,44 @@
+{
+  "id": "1189346",
+  "name": "vivo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1947473",
+      "name": "主页",
+      "font_class": "icon-home",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "5486691",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "5959937",
+      "name": "我 的",
+      "font_class": "self",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8565361",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "10308374",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}
