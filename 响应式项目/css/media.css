@@ -1,0 +1,390 @@
+@media screen and (min-width: 768px){
+    .wrapper .main .nav {
+        height: .5rem;
+        top: .75rem;
+    }
+    .wrapper .main .nav a.vg-logo {
+        width: .97rem;
+        height: .97rem;
+        left: 0;
+        top: -.1rem;
+    }
+    .nav ul.con-list {
+        margin: 0 0 0 1.2rem;
+    }
+    .nav ul.con-list li a {
+        height: .5rem;
+        line-height: .5rem;
+        padding: 0 .05rem;
+    }
+    .nav ul.con-list li a span {
+        display: none;
+    }
+    .nav ul.rig-list {
+        right: -.5rem;
+    }
+    .nav ul.rig-list li a{
+        height: .5rem;
+        line-height: .5rem;
+    }
+    .wrapper .main .nav-mobile{
+        display: none;
+    }
+    .wrapper .xnews .xnews-item{
+        display: flex;
+        flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .wrapper .heroes .flex .flex-item .flex-text h4{
+        font-size: .24rem;
+    }
+    .wrapper .heroes .list h2{
+        font-size: .36rem;
+    }
+    .wrapper .tab .swiper-slide .tab-txt h3{
+        font-size: .3rem;
+    }
+    .wrapper .tab .swiper-slide .tab-txt h3 span{
+        font-size: .18rem;
+    }
+    .wrapper footer{
+        line-height: .2rem;
+    }
+    .wrapper footer .foot .cprt{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper footer .foot  .cprt .info{
+        display: block;
+        flex-grow: 1;
+    }
+    .wrapper footer .foot .law{
+        display: none;
+    }
+}
+@media screen and (min-width: 1025px){
+    .wrapper .main .nav {
+        height: .66rem;
+    }
+    .wrapper .main .nav a.vg-logo {
+        width: .89rem;
+        height: .89rem;
+        left: 0;
+        top: -.28rem;
+    }
+    .wrapper .main .fixed a.vg-logo {
+        top: 0;
+    }
+    .nav ul.con-list {
+        margin: 0 0 0 2.5rem;
+    }
+    .nav ul.con-list li a {
+        height: .68rem;
+        line-height: .68rem;
+        padding: 0 .4rem;
+    }
+    .nav ul.con-list li a span{
+        left: .07rem;
+        display: block;
+    }
+    #pcalpha {
+        left: .14rem;
+    }
+    #signup{
+        left: .5rem;
+    }
+    .nav ul.rig-list {
+        right: -.5rem;
+    }
+    .nav ul.rig-list li a{
+        width: 1.2rem;
+        height: .68rem;
+        line-height: .68rem;
+    }
+    .nav .rig-list li a.download{
+        width: 2rem;
+        height: .66rem;
+    }
+    .sidebar{
+        display: block;
+    }
+    .wrapper .header{
+        position: relative;
+        width: 100%;
+        height: 8.39rem;
+        padding: 0;
+        margin: 0;
+        background-image: url(http://vg.163.com/images/home/header_bg_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .wrapper .device-pc{
+        display: block;
+        position: absolute;
+        top: 4.41rem;
+        left: 2.97rem;
+        width: 2.28rem;
+        height: 4.03rem;
+        margin: 0;
+        background-image: url(http://vg.163.com/images/home/bg_download.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .wrapper .device-pc .wrp .f-hc{
+        position: absolute!important;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .wrapper .device-pc .wrp .code_btn{
+        top: .29rem;
+        width: 1.64rem;
+        height: 1.64rem;
+        background-image: url(http://vg.163.com/images/home/qrcode.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .wrapper .device-pc .wrp .appstore_btn{
+        top: 2.12rem;
+        width: 1.81rem;
+        height: .57rem;
+        background-image: url(http://vg.163.com/images/home/download_ios.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .wrapper .device-pc .wrp .android_btn{
+        top: 2.78rem;
+        width: 1.81rem;
+        height: .56rem;
+        background-image: url(http://vg.163.com/images/home/download_android.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .wrapper .device-pc .wrp .pc_btn{
+        top: 3.43rem;
+        width: 1.81rem;
+        height: .56rem;
+        background-image: url(http://vg.163.com/images/home/download_pc.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .wrapper .device-pc .wrp .btn-hover{
+        transition: all ease .2s;
+    }
+    .wrapper .device-pc .wrp .btn-hover:hover{
+        filter: brightness(125%);
+    }
+    .wrapper .device-pc .wrp .line{
+        width: 2.13rem;
+        height: .13rem;
+        background-image: url(http://vg.163.com/images/home/line.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        animation: scan 2s linear infinite alternate;
+    }
+    @keyframes scan {
+        0% {
+            top: .05rem;
+        }
+        
+        100% {
+            top: 2rem;
+        }
+    }
+
+    .wrapper .header .game{
+        margin: 0;
+        padding-top: 7.44rem;
+        padding-left: 2rem;
+        font-size: .16rem;
+        color: #fff;
+        font-style: italic;
+        text-align: center;
+    }
+    .wrapper .header .device{
+        display: none;
+    }
+    .wrapper .xnews{
+        width: 100%;
+        height: 5.88rem;
+        background-image: url(http://vg.163.com/images/home/bg_news.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        max-width: 14.65rem;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(255,255,255,.1);
+    }
+    .wrapper .xnews .title{
+        display: block;
+    }
+    .wrapper .xnews .title h4{
+        position: relative;
+        height: 1.36rem;
+        line-height: 1.36rem;
+        text-align: center;
+        color: #fff;
+        font-size: .42rem;
+        margin: 0;
+    }
+    .wrapper .xnews .title h4 span{
+        position: absolute;
+        bottom: .3rem;
+        left: 50%;
+        width: .5rem;
+        height: .02rem;
+        margin-left: -.25rem;
+        background: #8074c5;
+    }
+    .wrapper .xnews .title a{
+        display: none;
+    }
+    .wrapper .xnews .xnews-item{
+        display: flex;
+        flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .wrapper .xnews .xnews-item .news-item{
+        position: relative;
+        display: block;
+        width: 4.79rem;
+        height: auto;
+        margin: 0;
+        cursor: pointer;
+    }
+    .wrapper .xnews-item .news-item:hover{
+        transform: translateY(-.1rem);
+        background: 0 0;
+    }
+    .wrapper .xnews .xnews-item .news-item img{
+        height: auto;
+    }
+    .wrapper .xnews .xnews-item .news-item p{
+        position: relative;
+        width: 100%;
+        height: .45rem;
+        line-height: .45rem;
+        padding: 0;
+        background-color: rgba(0,0,0,.6);
+        font-size: .17rem;
+        font-weight: lighter;
+        color: #fff;
+    }
+    .wrapper .xnews .pc-news{
+        margin: 0 auto;
+        display: block;
+        margin-top: .5rem;
+        width: 2.38rem;
+        height: .44rem;
+        line-height: .44rem;
+        border: 2px solid #999;
+        font-size: .18rem;
+        color: #999;
+        text-align: center;
+        background: 0 0;
+        transition: all ease .3s;
+    }
+    .wrapper .xnews .pc-news:hover{
+        background: black;
+        cursor: pointer;
+    }
+    .wrapper .map{
+        margin-top: 0;
+        background-color: #161617;
+    }
+    .wrapper .map h2{
+        position: relative;
+        height: 1.36rem;
+        line-height: 1.36rem;
+        text-align: center;
+        color: #fff;
+        font-size: .42rem;
+        margin: 0;
+        font-weight: 400;
+    }
+    .wrapper .map h2 span{
+        position: absolute;
+        bottom: .3rem;
+        left: 50%;
+        width: .5rem;
+        height: .02rem;
+        margin-left: -.25rem;
+        background: #8074c5;
+    }
+    .wrapper .map .map-txt p{
+        padding: .3rem 0;
+    }
+    .wrapper .map .map-txt .map-video{
+        width: 100%;
+        margin: .6rem auto;
+    }
+    .wrapper .map .map-txt .map-video .video-btn{
+        background-size: auto;
+    }
+    .wrapper .heroes .flex{
+        padding: .87rem 0 .5rem;
+        flex-flow: row nowrap;
+    }
+    .wrapper .heroes .flex .flex-item{
+        width: 32%;
+        margin: 0 .1rem;
+    }
+    .wrapper .heroes .flex .flex-item img{
+        margin-top: -1.18rem;
+        margin-bottom: -1.16rem;
+        height: 708px;
+    }
+    .wrapper .heroes .flex .flex-item .flex-text h2{
+        font-size: .48rem;
+        color: #fccc84;
+    }
+    .wrapper .heroes .flex .flex-item .flex-text h4{
+        font-size: .36rem;
+    }
+    .wrapper .heroes .list p{
+        font-size: .18rem;
+    }
+    .wrapper .heroes .list .tab{
+        height: 6rem;
+    }
+    .wrapper .heroes .list .tab .swiper-slide .tab-txt{
+        bottom: .8rem;
+    }
+    .wrapper .heroes .list .tab .swiper-slide .tab-txt p{
+        display: block;
+        margin: 0;
+        font-size: .18rem;
+        text-align: left;
+    }
+    .wrapper .tab .swiper-slide .tab-txt .tab-btn{
+        width: 1.2rem;
+        margin: .2rem 0 0;
+    }
+    .wrapper .heroes p.yin{
+        font-size: .18rem;
+    }
+    .wrapper .heroes p.yin a{
+        margin: 0 auto;
+        display: block;
+        margin-top: .5rem;
+        width: 2.38rem;
+        height: .44rem;
+        padding: 0;
+        line-height: .44rem;
+        border: 2px solid #999;
+        font-size: .18rem;
+        color: #999;
+        text-align: center;
+        background: 0 0;
+        transition: all ease .3s;
+    }
+    .wrapper .heroes .down{
+        display: none;
+    }
+
+}
