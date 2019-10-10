@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/play.css">
+</head>
+
+<body>
+    <meta name="referrer" content="no-referrer" />
+    <!-- 顶部 -->
+    <div id="db-global-nav" class="global-nav">
+        <ul class="global-nav-items fl">
+            <li><a href="javascript:;">豆瓣</a></li>
+            <li><a href="javascript:;">读书</a></li>
+            <li><a href="javascript:;">电影</a></li>
+            <li><a href="javascript:;">音乐</a></li>
+            <li><a href="javascript:;">同城</a></li>
+            <li><a href="javascript:;">小组</a></li>
+            <li><a href="javascript:;">阅读</a></li>
+            <li><a href="javascript:;">FM</a></li>
+            <li><a href="javascript:;">时间</a></li>
+            <li><a href="javascript:;">豆品</a></li>
+            <li><a href="javascript:;">更多</a></li>
+        </ul>
+        <ul class="global-nav-items fr">
+            <li class="xiazai"><a href="javascript:;">下载豆瓣客户端</a>
+                <div class="select">
+                    <p class="log">
+                        豆瓣
+                    </p>
+                    <p class="lo"></p>
+                    <p class="txt">
+                        <a href="#">iPhone</a>
+                        <span></span>
+                        <a href="#">Android</a>
+                    </p>
+                </div>
+            </li>
+            <li><a href="javascript:;">登录/注册</a></li>
+        </ul>
+    </div>
+    <!-- 搜索框 -->
+    <div id="db-nav-movie" class="nav">
+        <div class="nav-wrap">
+            <div class="nav-primary">
+                <div class="nav-logo">
+
+                </div>
+                <div class="nav-search">
+                    <input class="inp-query" type="text" placeholder="搜索电影、电视剧、综艺、影人">
+                    <input class="inp-btn" type="submit" value="搜索">
+                    <div class="nav-search-div"></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-secondary">
+            <div class="nav-items">
+                <ul>
+                    <li><a href="javascript:;">影讯&amp;购票</a>
+                    </li>
+                    <li><a href="javascript:;">选电影</a>
+                    </li>
+                    <li><a href="javascript:;">电视剧</a>
+                    </li>
+                    <li><a href="javascript:;">排行榜</a>
+                    </li>
+                    <li><a href="javascript:;">分类</a>
+                    </li>
+                    <li><a href="javascript:;">影评</a>
+                    </li>
+                    <li><a href="javascript:;">2018年度榜单</a>
+                    </li>
+                    <li><a href="javascript:;">2018书影音报告</a>
+                </ul>
+            </div>
+        </div>
+        <a href="javascript:;"></a>
+    </div>
+    <!-- 选电影 -->
+    <div id="wrapper">
+        <div id="content">
+            <h1>选电影</h1>
+            <div class="article">
+                <div class="gaia">
+                    <!-- 分类 -->
+                    <div class="fliter">
+                        <div class="tags">
+                            <li style="background: #000;">
+                                <a href="javascript:;" style="color: rgb(255, 255, 255);">热门</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">最新</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">经典</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可播放</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">豆瓣高分</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">冷门佳片</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">华语</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">欧美</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">韩国</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">日本</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">动作</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">喜剧</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">爱情</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">科幻</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">悬疑</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">恐怖</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">文艺</a>
+                            </li>
+                        </div>
+                        <div class="tool">
+                            <div class="sort">
+                                <input type="radio" name="sort" value="recommend" checked="checked">按热度排序
+                                <input type="radio" name="sort" value="time">按时间排序
+                                <input type="radio" name="sort" value="rank">按评价排序
+                            </div>
+                            <div class="check">
+                                <label>
+                                    <input type="checkbox" name="watched" class="">我没看过的
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="playable">可在线播放
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 内容 -->
+                    <div class="list-wp">
+                        <!-- <div class="detail-pop">
+                                       
+                                </div> -->
+                        <div class="list">
+                            <!-- <a class="item" href="javascript:;" value="30163509">
+                                    <div class="cover-wp" data-isnew="false" data-id="30163509">
+                                        <img src="img/p2542973862.jpg" alt="飞驰人生" data-x="7142" data-y="10000">
+                                    </div>
+                                    <p>飞驰人生&nbsp;&nbsp;<strong>7.0</strong></p>
+                                </a> -->
+
+                        </div>
+                        <a class="more" href="javascript:;">加载更多</a>
+                    </div>
+                </div>
+            </div>
+            <div class="aside">
+                <div id="doulist">
+                    <h2>热门豆列</h2>
+                    <ul>
+                        <li>
+                            <span>15推荐</span>
+                            <div class="title"><a target="_blank"
+                                    href="https://www.douban.com/doulist/1502467/">◆◆历届柏林电影节金熊奖◆◆</a></div>
+                        </li>
+                        <li>
+                            <span>36推荐</span>
+                            <div class="title"><a target="_blank"
+                                    href="https://www.douban.com/doulist/1605639/">那些好想重温一遍的夏季档</a></div>
+                        </li>
+                        <li>
+                            <span>9162推荐</span>
+                            <div class="title"><a target="_blank"
+                                    href="https://www.douban.com/doulist/180721/">文艺女王必修课「华语篇」</a></div>
+                        </li>
+                        <li>
+                            <span>2358推荐</span>
+                            <div class="title"><a target="_blank" href="https://www.douban.com/doulist/35393/">Bonjour
+                                    la France 电影篇</a></div>
+                        </li>
+                        <li>
+                            <span>1110推荐</span>
+                            <div class="title"><a target="_blank"
+                                    href="https://www.douban.com/doulist/199756/">故事发生在一天内的电影</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">
+                © 2005－2019 douban.com, all rights reserved 北京豆网科技有限公司
+            </span>
+            <a href="javascript:;" style="display: none;"></a>
+            <span class="fright">
+                <a href="javascript:;">关于豆瓣</a>
+                · <a href="javascript:;">在豆瓣工作</a>
+                · <a href="javascript:;">联系我们</a>
+                · <a href="javascript:;">免责声明</a>
+                · <a href="javascript:;" target="_blank">帮助中心</a>
+                · <a href="javascript:;">移动应用</a>
+                · <a href="javascript:;">豆瓣广告</a>
+            </span>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/play.js"></script>
+
+</html>
